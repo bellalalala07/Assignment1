@@ -347,13 +347,13 @@ function edit(question) {
 //Allow admin to edit status after prompting the flight number
 async function EditStatus(){
     try {
-        const fnumber = await edit('Enter the flight number to edit status: ');
+        const fnumber = await edit('Enter flight number to edit status: ');
         //find index in array
         const index = flightList.findIndex((flight) => flight.flightNo == fnumber);
 
         //Check if flight number exists
         if (index !== -1) {
-            const newStatus = await edit('Enter the new status: ');
+            const newStatus = await edit('Enter updated status: ');
 
             // Update flight status
             flightList[index].status = newStatus;
