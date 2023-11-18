@@ -82,7 +82,7 @@ Choose an option:
 ```
 Note: 5 & 6 is only accessible after logging in as admin which can be found under 1
 
-Option 1:
+#### Option 1:
 
 ```js
 ==========================
@@ -92,13 +92,13 @@ Option 1:
 (Enter number)
 ```
 
-User input for login:
+#### User input for login:
 
 Please enter your username: (Enter username)
 
 Please enter your password: (Enter password)
 
-User input for register:
+#### User input for register:
 
 Create username: (Enter new username)
 
