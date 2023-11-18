@@ -1,0 +1,11 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "The module provides details of flight information for the users.",
+  "main": "BellaLuYiTian_FlightSystem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
