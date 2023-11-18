@@ -3,15 +3,21 @@ The module provides details of flight information for the users.
 
 # Getting started
 Ensure readline is required:
+```js
 const readline = require("readline");
+```
 
 Install dependencies:
+```js
 npm init
 npm install express
 npm install
+```
 
 Run nodemon in terminal:
+```js
 node BellaLuYiTian_FlightSystem.js
+```
 
 ## Created list for flight list and login details
 
@@ -66,6 +72,7 @@ const flightList = [
 ]
 ```
 ## User Input:
+Note: () represents user input*
 Output shown under terminal:
 
 ```js
