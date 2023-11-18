@@ -104,19 +104,19 @@ Create username: (Enter new username)
 
 Create password: (Enter new password)
 
-Option 2:
+#### Option 2:
 
 Enter your flight number: (Enter flight number from flight list)
 
-Option 3:
+#### Option 3:
 
 Search for flight, city...: (Enter valid input from flight list)
 
-Option 4:
+#### Option 4:
 
 All information from flight list would be displayed.
 
-Option 5:
+#### Option 5:
 
 Enter Airline: (Enter new airline)
 
@@ -134,7 +134,7 @@ Enter Time: (Enter new time)
 
 Enter Status: (Enter new status)
 
-Option 6:
+#### Option 6:
 
 Enter the flight number to edit status: (Enter flight number from flight list)
 
