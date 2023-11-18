@@ -95,11 +95,13 @@ Option 1:
 User input for login:
 
 Please enter your username: (Enter username)
+
 Please enter your password: (Enter password)
 
 User input for register:
 
 Create username: (Enter new username)
+
 Create password: (Enter new password)
 
 Option 2:
@@ -117,17 +119,25 @@ All information from flight list would be displayed.
 Option 5:
 
 Enter Airline: (Enter new airline)
+
 Enter Flight Number: (Enter new flight no)
+
 Enter Gate Number: (Enter new gate no)
+
 Enter Departure City: (Enter new depature city)
+
 Enter Destination: (Enter new destination)
+
 Enter Date (YYYY-MM-DD): (Enter new date)
+
 Enter Time: (Enter new time)
+
 Enter Status: (Enter new status)
 
 Option 6:
 
 Enter the flight number to edit status: (Enter flight number from flight list)
+
 Enter the new status: (Enter new status)
 
 ## Functions
