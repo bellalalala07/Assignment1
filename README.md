@@ -13,7 +13,7 @@ npm install
 Run nodemon in terminal:
 node BellaLuYiTian_FlightSystem.js
 
-# Enter any number 1-7 in terminal
+## Enter any number 1-7 in terminal
 Output:
 
 ```js
@@ -31,8 +31,8 @@ Choose an option:
 
 Note: 5 & 6 is only accessible after logging in as admin which can be found under 1
 
-# Functions
-# Login/Register account
+## Functions
+### Login/Register account
 User Input:
 ```js
 ==========================
@@ -51,10 +51,10 @@ Explanation:
 
 Output:
 
-# Retrieve flight information by flight number
+### Retrieve flight information by flight number
 
-# Search for flight information
+### Search for flight information
 
-# Get flight list
+### Get flight list
 
-# Add flight information
+### Add flight information
