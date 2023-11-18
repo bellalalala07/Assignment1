@@ -93,52 +93,49 @@ Note: 5 & 6 is only accessible after logging in as admin which can be found unde
 ```
 
 #### User input for login:
-
+```js
 Please enter your username: (Enter username)
-
 Please enter your password: (Enter password)
+```
 
 #### User input for register:
-
+```js
 Create username: (Enter new username)
-
 Create password: (Enter new password)
+```
 
 #### Option 2:
-
+```js
 Enter your flight number: (Enter flight number from flight list)
+```
 
 #### Option 3:
-
+```js
 Search for flight, city...: (Enter valid input from flight list)
+```
 
 #### Option 4:
-
+```js
 All information from flight list would be displayed.
+```
 
 #### Option 5:
-
+```js
 Enter Airline: (Enter new airline)
-
 Enter Flight Number: (Enter new flight no)
-
 Enter Gate Number: (Enter new gate no)
-
 Enter Departure City: (Enter new depature city)
-
 Enter Destination: (Enter new destination)
-
 Enter Date (YYYY-MM-DD): (Enter new date)
-
 Enter Time: (Enter new time)
-
 Enter Status: (Enter new status)
+```
 
 #### Option 6:
-
+```js
 Enter the flight number to edit status: (Enter flight number from flight list)
-
 Enter the new status: (Enter new status)
+```
 
 ## Functions
 ### Login/Register account
