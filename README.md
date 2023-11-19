@@ -73,6 +73,7 @@ const flightList = [
 ```
 ## User Input:
 Note: () represents user input*
+
 Output shown under terminal:
 
 ```js
