@@ -77,7 +77,7 @@ let handleOption = function(option){
 
         //Call specific flight details by flight number
         case 2:
-            flightInfo();
+            findFlightByNo();
             break;
         
         //Search function for flight details
@@ -205,7 +205,7 @@ function askFlightNumber(question) {
 }
 
 //Prompts user to enter their flight number and execute the details of their flight
-async function flightInfo(){
+async function findFlightByNo(){
     try{
         const code = await askFlightNumber('Enter your flight number: ');
         const foundflight = flightList.find((flight) => flight.flightNo == code);
@@ -216,7 +216,7 @@ async function flightInfo(){
         else{
             console.log("The flight number you have entered is not valid.\n");
             //call input
-            flightInfo();
+            findFlightByNo();
         }
     }
     catch(e){
@@ -284,7 +284,7 @@ async function SearchInfo(){
 }
 
 //Waits for options to be called and completed before executing function
-function addFlight(question) {
+function addDetails(question) {
     //Return promise which will then be resolve after user inputs an answer
     return new Promise((resolve) => {
         rl.question(question, (answers) => {
@@ -303,14 +303,14 @@ async function AddFlight() {
     try{
         //Prompt admin for information to add to flight list
         //Create variables that stores the admin's input
-        const airline = await addFlight('Enter Airline: ');
-        const flightNo = await addFlight('Enter Flight Number: ');
-        const gate = await addFlight('Enter Gate Number: ');
-        const departureCity = await addFlight('Enter Departure City: ');
-        const destination = await addFlight('Enter Destination: ');
-        const date = await addFlight('Enter Date (YYYY-MM-DD): ');
-        const time = await addFlight('Enter Time: ');
-        const status = await addFlight('Enter Status: ');
+        const airline = await addDetails('Enter Airline: ');
+        const flightNo = await addDetails('Enter Flight Number: ');
+        const gate = await addDetails('Enter Gate Number: ');
+        const departureCity = await addDetails('Enter Departure City: ');
+        const destination = await addDetails('Enter Destination: ');
+        const date = await addDetails('Enter Date (YYYY-MM-DD): ');
+        const time = await addDetails('Enter Time: ');
+        const status = await addDetails('Enter Status: ');
 
         //Add admin's input into the flight list
         flightList.push({
